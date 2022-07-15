@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;600;700&display=swap");
+body {
+  background-color: rgb(225, 225, 225);
+  display: grid;
+  grid-template-columns: auto;
+
+  grid-column-gap: 50px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+#frontDiv {
+  width: 335px;
+  height: 65px;
+  background-color: rgb(238, 238, 238);
+  border-color: rgb(153, 153, 153);
+  border-style: solid;
+  border-width: 1px;
+  font-size: 22.5px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#keyContainer,
+#keyCodeContainer,
+#codeContainer {
+  position: relative;
+}
+
+#keyTitle,
+#keyCodeTitle,
+#codeTitle {
+  display: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -25px;
+  font-size: 16px;
+  justify-content: center;
+}
+
+#key,
+#keyCode,
+#code {
+  display: none;
+
+  height: 65px;
+  width: 140px;
+  background-color: rgb(238, 238, 238);
+  border-color: rgb(153, 153, 153);
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
